@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CI-ro-g3x">
-                                <rect key="frame" x="159.5" y="433" width="95" height="30"/>
+                                <rect key="frame" x="160" y="433" width="95" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="8Fp-fd-Z9X"/>
                                 </constraints>
@@ -29,6 +29,7 @@
                                 </state>
                                 <connections>
                                     <action selector="rollTheDice" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Coq-UR-eN5"/>
+                                    <segue destination="qUR-90-axl" kind="modal" identifier="" id="0FA-q0-4uS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -38,13 +39,10 @@
                             <constraint firstAttribute="centerY" secondItem="0CI-ro-g3x" secondAttribute="centerY" id="icH-2t-PDN"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="qUR-90-axl" kind="modal" identifier="rollDice" id="El3-qq-NDG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="360.19323671497585" y="588.91964285714289"/>
+            <point key="canvasLocation" x="359.4202898550725" y="588.61607142857144"/>
         </scene>
         <!--Dice View Controller-->
         <scene sceneID="Kym-1j-YxR">
