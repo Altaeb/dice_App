@@ -39,9 +39,12 @@ class RollViewController: UIViewController {
 //        present(controller, animated: true, completion: nil)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "rollDice" {
         let controller = segue.destination as! DiceViewController
         controller.firstValue = randomDiceValue()
         controller.secondValue = randomDiceValue()
+        }
     }
     
 }
