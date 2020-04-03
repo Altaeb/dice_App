@@ -29,7 +29,7 @@
                                 </state>
                                 <connections>
                                     <action selector="rollTheDice" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Coq-UR-eN5"/>
-                                    <segue destination="qUR-90-axl" kind="modal" identifier="" id="0FA-q0-4uS"/>
+                                    <segue destination="qUR-90-axl" kind="modal" identifier="rollDice" id="0FA-q0-4uS"/>
                                 </connections>
                             </button>
                         </subviews>
